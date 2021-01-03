@@ -7,7 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/5b2d01a427.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
+
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <div id="container">
@@ -17,23 +22,24 @@
             <img id="logo" src="projet2/images/logo/Reservia.svg" alt="Logo de l'agence">
             <nav>
                 <ul>
-                    <li>Hébergements</li>
-                    <li>Activités</li>
-                    <li>S'inscrire</li>
+                    <li><a href="#hebergements">Hébergements</a></li>
+                    <li><a href="#activites">Activités</a></li>
+                    <li><a href="#inscription">S'inscrire</a></li>
                 </ul>
             </nav>
         </header>
         <main>
-            <section>
+            <section id="section1">
                 <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
                 <p>En plein centre ville ou en pleine nature</p>
-                <div><i class="fas fa-map-marker-alt"></i><input type="search"><button>Recherche</button></div>
-                <p>Filtres</p>
-                <div class="filtre"><i class="fas fa-money-bill-wave-alt"></i> <h3>Economique</h3></div>   
-                <div class="filtre"><i class="fas fa-child"></i><h3>Familial</h3></div>
-                <div class="filtre"><i class="fas fa-heart"></i><h3>Romantique</h3></div>
-                <div class="filtre"><i class="fas fa-dog"></i><h3>Animaux autorisés</h3></div>
-
+                <div id="recherche"><i class="fas fa-map-marker-alt"></i><input type="search"><button>Recherche</button></div>
+                <div id="categorie">
+                    <p><strong>Filtres</strong></p>
+                    <div class="filtre"><i class="fas fa-money-bill-wave-alt"></i> <h3>Economique</h3></div>   
+                    <div class="filtre"><i class="fas fa-child"></i><h3>Familial</h3></div>
+                    <div class="filtre"><i class="fas fa-heart"></i><h3>Romantique</h3></div>
+                    <div class="filtre"><i class="fas fa-dog"></i><h3>Animaux autorisés</h3></div>
+                </div>
                 <i class="fas fa-info"></i><p>Plus de 500 logements disponibles dans cette ville</p>
             </section>
             <section>
