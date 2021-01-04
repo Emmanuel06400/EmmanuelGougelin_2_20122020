@@ -68,6 +68,7 @@ nav a:hover
 {
     margin-bottom: 4px;
 }
+
 #recherche
 {
     width: 296px;
@@ -160,3 +161,215 @@ h3
     margin-left: 8px;
 }
 
+/* section2 */
+
+#section2
+{
+    background-color: #f2f2f2;
+    width: 590px;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+    justify-content: space-between;
+}
+
+#section2 h4
+{
+    width: 100%;
+}
+
+.hebergement
+{
+    height: 114px;
+    width: 165px;
+    border-radius: 16px;
+    background: url(Projet2/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg) no-repeat;
+    position: relative;
+    margin-bottom: 25px;
+    background-size: 170px;
+    border: 3px solid #ffffff;
+    background-position: right 0px top -14px;
+}
+
+.hebergement2
+{
+    height: 114px;
+    width: 165px;
+    border-radius: 16px;
+    background: url(Projet2/images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg) no-repeat;
+    position: relative;
+    margin-bottom: 25px;
+    background-size: 170px;
+    border: 3px solid #ffffff;
+    background-position: right 0px top -14px;
+}
+
+.hebergement3
+{
+    height: 114px;
+    width: 165px;
+    border-radius: 16px;
+    background: url(Projet2/images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg) no-repeat;
+    position: relative;
+    margin-bottom: 25px;
+    background-size: 170px;
+    border: 3px solid #ffffff;
+    background-position: right 0px top -14px;
+}
+
+.hebergement4
+{
+    height: 114px;
+    width: 165px;
+    border-radius: 16px;
+    background: url(Projet2/images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg) no-repeat;
+    position: relative;
+    margin-bottom: 25px;
+    background-size: 170px;
+    border: 3px solid #ffffff;
+    background-position: right 0px top -55px;
+}
+
+.hebergement5
+{
+    height: 114px;
+    width: 165px;
+    border-radius: 16px;
+    background: url(Projet2/images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg) no-repeat;
+    position: relative;
+    margin-bottom: 25px;
+    background-size: 170px;
+    border: 3px solid #ffffff;
+    background-position: right 0px top -14px;
+}
+
+.hebergement6
+{
+    height: 114px;
+    width: 165px;
+    border-radius: 16px;
+    background: url(Projet2/images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg) no-repeat;
+    position: relative;
+    margin-bottom: 25px;
+    background-size: 170px;
+    border: 3px solid #ffffff;
+    background-position: right 0px top -115px;
+}
+
+.cadre
+{
+    position: absolute;
+    bottom: 0;
+    width: 98.5%;
+    height: 43px;
+    padding-left: 4px;
+    background-color: #ffffff;
+    font-size: 0.8em;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.cadre  p
+{
+    margin: 3px;
+    margin-bottom: 0px;
+
+}
+
+.fa-star
+{
+    color: #0065FC;
+}
+
+.star 
+{
+    margin-left: 3px;
+}
+
+.greystar
+{
+    color: #adadad;
+}
+
+#section2 p
+{
+    width: 100%;
+}
+
+/* aside */
+
+aside
+{
+    background-color: #f2f2f2;
+    width: 230px;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+    justify-content: space-between;
+}
+
+aside .fas
+{
+    margin-top: 27px;
+}
+#section2-aside
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+#populaire1
+{
+    height: 100px;
+    width: 220px;
+    border-radius: 16px;
+    background: url(Projet2/images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg) no-repeat;
+    position: relative;
+    margin-bottom: 25px;
+    background-size: 170px;
+    border: 3px solid #ffffff;
+    background-position: right 78px top -0px;
+}
+
+#populaire2
+{
+    height: 100px;
+    width: 220px;
+    border-radius: 16px;
+    background: url(Projet2/images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg) no-repeat;
+    position: relative;
+    margin-bottom: 25px;
+    background-size: 170px;
+    border: 3px solid #ffffff;
+    background-position: right 78px top -0px;
+}
+#populaire3
+{
+    height: 100px;
+    width: 220px;
+    border-radius: 16px;
+    background: url(Projet2/images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg) no-repeat;
+    position: relative;
+    margin-bottom: 25px;
+    background-size: 100px;
+    border: 3px solid #ffffff;
+    background-position: right 124px top -30px;
+}
+.cadre2
+{
+    position: absolute;
+    right: 0px;
+    width: 54%;
+    height: 100px;
+    padding-left: 4px;
+    background-color: #ffffff;
+    font-size: 0.8em;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.cadre2 .star
+{
+    bottom: 5px;
+    position: absolute;
+}
