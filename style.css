@@ -77,6 +77,7 @@ nav a:hover
     border-radius: 8px;
     margin-bottom: 23px;
     border: 1px solid #F2F2F2;
+    position: relative;
 }
 
 input
@@ -498,10 +499,162 @@ footer
     justify-content: space-around;
 }
 
+    /* éléments invisible */
+
+
+#inscription2
+{
+    visibility: hidden;
+}
+
+#bouton
+{
+    display: none;
+}
+
     /* media squeris */
 
 
-@media screen and (max-width: 1280px)
+@media screen and (max-width: 600px)
 {
-    /* Rédigez vos propriétés CSS ici */
+    /* header-head */
+
+    body
+    {
+        width: 100%;
+        margin: auto;
+    }
+
+    header
+    {
+        display: inline;
+        flex-wrap: wrap;
+    }
+
+    #logo
+    {
+        margin-left: 20px;
+    }
+    
+    #inscription
+    {
+        display: none;
+    }
+
+    #inscription2
+    {
+    visibility: visible;
+    float: right;
+    padding-bottom: 3px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 20px;
+    }
+
+    #inscription2 a
+    {
+        text-decoration: none;
+        color: #0065FC;
+
+    }
+
+
+    nav
+    {
+        font-size: 1.3em;
+
+    }
+
+    ul
+    {
+        padding-left: 0px;
+    }
+
+    nav li
+    {
+        width: 50%;
+        text-align: center;  
+        margin-right: 0em;  
+        margin-bottom: 5px;
+        padding-bottom: 10px;
+    }
+    nav li:hover
+    {
+        color: #0065FC;
+        border-bottom: 3px solid #0065FC;;
+        margin-top: none;
+    }
+
+    nav a:hover 
+    {
+        color: #0065FC;
+        border-top: none;
+        margin-top: none;
+        padding-top: none;    
+    }   
+
+    main
+    {
+        width: 100%;
+    }
+
+    #section1
+    {
+        width: 80%;
+        margin: auto;
+    }
+
+    #section1 p
+    {
+        font-size: 1em;
+    }
+
+    button
+    {
+        display: none;
+    }
+
+    input
+    {
+        width: 75%;
+    }
+
+    #bouton
+    {
+        display: inline-block;
+        width: 28px;
+        background-color: #0065FC;
+        padding-left: 10px;
+        height: 30px;
+        top: 0px;
+        position: absolute;
+        border-radius: 10px; 
+        color: #fff;   
+    }
+   
+    .fa-search
+    {
+        top: 8px;
+        position: absolute;
+        left: 13px;
+    }
+
+    .filtre
+    {
+        height: 15px;
+        flex-wrap: wrap;
+        margin: 7px;
+    }
+
+    #categorie
+    {
+        flex-wrap: wrap;
+    }    
+   
+    #categorie p
+    {
+        width: 100%;
+    }
+
+
 }
