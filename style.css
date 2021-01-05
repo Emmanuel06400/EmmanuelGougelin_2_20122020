@@ -53,7 +53,7 @@ nav a
     text-decoration: none;
 }
 
-nav a:hover
+nav a:hover 
 {
     color: #0065FC;
     border-top: 3px solid #0065FC;
@@ -71,11 +71,12 @@ nav a:hover
 
 #recherche
 {
-    width: 296px;
+    width: 291px;
     height: 30px;
     background-color: #F2F2F2;
     border-radius: 8px;
     margin-bottom: 23px;
+    border: 1px solid #F2F2F2;
 }
 
 input
@@ -83,6 +84,7 @@ input
     border-color:#F2F2F2;
     appearance: none;
     height: 30px;
+    border: slategray;
 }
 
 button
@@ -190,6 +192,7 @@ h3
     background-size: 170px;
     border: 3px solid #ffffff;
     background-position: right 0px top -14px;
+    box-shadow: 0px 4px 4px #cfcfcf;
 }
 
 .hebergement2
@@ -202,7 +205,9 @@ h3
     margin-bottom: 25px;
     background-size: 170px;
     border: 3px solid #ffffff;
+    box-shadow: 0px 4px 4px #cfcfcf;
     background-position: right 0px top -14px;
+    box-shadow: 0px 4px 4px #cfcfcf;
 }
 
 .hebergement3
@@ -216,6 +221,7 @@ h3
     background-size: 170px;
     border: 3px solid #ffffff;
     background-position: right 0px top -14px;
+    box-shadow: 0px 4px 4px #cfcfcf;
 }
 
 .hebergement4
@@ -229,6 +235,7 @@ h3
     background-size: 170px;
     border: 3px solid #ffffff;
     background-position: right 0px top -55px;
+    box-shadow: 0px 4px 4px #cfcfcf;
 }
 
 .hebergement5
@@ -242,6 +249,7 @@ h3
     background-size: 170px;
     border: 3px solid #ffffff;
     background-position: right 0px top -14px;
+    box-shadow: 0px 4px 4px #cfcfcf;
 }
 
 .hebergement6
@@ -255,6 +263,7 @@ h3
     background-size: 170px;
     border: 3px solid #ffffff;
     background-position: right 0px top -115px;
+    box-shadow: 0px 4px 4px #cfcfcf;
 }
 
 .cadre
@@ -330,6 +339,7 @@ aside .fas
     background-size: 170px;
     border: 3px solid #ffffff;
     background-position: right 78px top -0px;
+    box-shadow: 0px 4px 4px #cfcfcf;
 }
 
 #populaire2
@@ -343,6 +353,7 @@ aside .fas
     background-size: 170px;
     border: 3px solid #ffffff;
     background-position: right 78px top -0px;
+    box-shadow: 0px 4px 4px #cfcfcf;
 }
 #populaire3
 {
@@ -355,6 +366,7 @@ aside .fas
     background-size: 100px;
     border: 3px solid #ffffff;
     background-position: right 124px top -30px;
+    box-shadow: 0px 4px 4px #cfcfcf;
 }
 .cadre2
 {
@@ -372,4 +384,124 @@ aside .fas
 {
     bottom: 5px;
     position: absolute;
+}
+
+/* section3 */
+
+#section3
+{
+    height: 290px;
+    display: flex;
+    width: 900px;
+    justify-content: space-between;
+    flex-flow: column wrap;
+    padding: 15px 0px 15px 0px;
+    align-content: space-between;
+}
+
+.activite
+{
+    height: 265px;
+    width: 179px;
+    border-radius: 16px;
+    background: url(Projet2/images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg) no-repeat;
+    position: relative;
+    margin-bottom: 25px;
+    background-size: 382px;
+    background-position: right -65px top -14px;
+    box-shadow: 0px 4px 4px #cfcfcf;
+}
+.activite2
+{
+    height: 120px;
+    width: 200px;
+    border-radius: 16px;
+    background: url(Projet2/images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg) no-repeat;
+    position: relative;
+    margin-bottom: 25px;
+    background-size: 202px;
+    background-position: right -1px top -83px;
+    box-shadow: 0px 4px 4px #cfcfcf;
+}
+.activite3
+{
+    height: 120px;
+    width: 200px;
+    border-radius: 16px;
+    background: url(Projet2/images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg) no-repeat;
+    position: relative;
+    margin-bottom: 25px;
+    background-size: 204px;
+    background-position: right -1px top 0px;
+    box-shadow: 0px 4px 4px #cfcfcf;
+}
+.activite4
+{
+    height: 265px;
+    width: 179px;
+    border-radius: 16px;
+    background: url(Projet2/images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg) no-repeat;
+    position: relative;
+    margin-bottom: 25px;
+    background-size: 382px;
+    background-position: right -65px top -14px;
+    box-shadow: 0px 4px 4px #cfcfcf;
+}
+.activite5
+{
+    height: 120px;
+    width: 200px;
+    border-radius: 16px;
+    background: url(Projet2/images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg) no-repeat;
+    position: relative;
+    margin-bottom: 25px;
+    background-size: 202px;
+    background-position: right -1px top 0px;
+    box-shadow: 0px 4px 4px #cfcfcf;
+}
+.activite6
+{
+    height: 120px;
+    width: 200px;
+    border-radius: 16px;
+    background: url(Projet2/images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg) no-repeat;
+    position: relative;
+    margin-bottom: 25px;
+    background-size: 202px;
+    background-position: right -1px top 0px;
+    box-shadow: 0px 4px 4px #cfcfcf;
+}
+
+#section3 .cadre
+{
+    position: absolute;
+    bottom: 0;
+    width: 98%;
+    height: 25px;
+    padding-left: 4px;
+    background-color: #ffffff;
+    font-size: 0.8em;
+    border-radius: 0px 0px 16px 16px;
+}
+
+#section3 p
+{
+    margin: 7px 10px;
+}
+
+footer
+{
+    background-color: #f2f2f2;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+    justify-content: space-around;
+}
+
+    /* media squeris */
+
+
+@media screen and (max-width: 1280px)
+{
+    /* Rédigez vos propriétés CSS ici */
 }
