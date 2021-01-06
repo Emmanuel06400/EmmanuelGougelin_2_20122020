@@ -577,6 +577,7 @@ footer
         margin-right: 0em;  
         margin-bottom: 5px;
         padding-bottom: 10px;
+        border-bottom: 3px solid #f2f2f2;;
     }
     nav li:hover
     {
@@ -655,6 +656,46 @@ footer
     {
         width: 100%;
     }
+
+
+    #section2-aside
+    {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 30px;
+    }
+
+    aside
+    {
+        width: 100%;
+        margin: auto;
+        border-radius: 0px;
+        padding: 20px;
+
+    }
+
+    h4 .fa-external-link-alt
+    {
+        position: absolute;
+        right: 10px;
+        margin-top: 0px;
+        font-size: 1.1em;
+    }
+
+    aside h4
+    {
+        width: 100%;
+        margin: auto;
+        margin-bottom: 23px;
+    }
+
+    #populaire1, #populaire2, #populaire3
+    {
+        margin: auto;
+        margin-bottom: 15px;
+    }
+
+
 
 
 }
