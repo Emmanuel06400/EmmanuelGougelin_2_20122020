@@ -26,6 +26,11 @@ body
     padding-top: 20px;
 }
 
+a
+{
+    color: black;
+    display: contents;}
+
 /* header */
 
 header
@@ -529,7 +534,7 @@ footer
     /* media squeris */
 
 
-@media screen and (max-width: 400px)
+@media (max-width: 400px)
 {
     /* header-head */
 
@@ -804,5 +809,8 @@ footer
 
 
 }
+
+@media (min-device-width: 400px) and (max-device-width: 900px)
+
 
 
