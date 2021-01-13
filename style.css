@@ -33,22 +33,22 @@ a
 
 header
 {
-    display: grid;
-    grid-template-columns: 15% 2fr 1fr;
     width: 90%;
     margin: auto;
+    display: flex;
+    justify-content: space-between;
 }
 
 nav
 {
-    grid-column-start:3;
+    display: flex;
 }
 
 nav ul
 {
     list-style-type: none;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;}
+    display: flex;
+}
 
 nav li
 {
@@ -452,20 +452,15 @@ footer
     display: none;
 }
 
-    /* media squeris */
+    /* media squeris 966px*/
 
 
-    @media (max-width: 900px)
+    @media (max-width: 966px)
     {    
     
-        header
-        {
-
-        }
         .filtre
         {
             height: 15px;
-            flex-wrap: wrap;
             margin: 7px;
         }
     
@@ -590,6 +585,5 @@ footer
             display: inline-block;
             width: 100%;    
         }
-    
-    
-    }
+
+
