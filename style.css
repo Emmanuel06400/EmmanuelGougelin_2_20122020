@@ -15,18 +15,17 @@ p
     font-size: 0.7em;
 }
 
+a
+{
+    color: black;
+}
 
-/* Eléments principaux de la page */
+/* body */
 
 body
 {
     font-family: 'Raleway', sans-serif;
     padding-top: 20px;
-}
-
-a
-{
-    color: black;
 }
 
 /* header */
@@ -109,8 +108,6 @@ button
 
 .filtre
 {
-    display: flex;
-    width: fit-content;
     border: 3px solid #F2F2F2;
     border-radius: 25px;
     padding: 10px 20px 8px 20px;
@@ -288,6 +285,11 @@ button
 
 /* aside */
 
+aside p
+{
+    font-size: 0.9em;
+}
+
 aside
 {
     background-color: #f2f2f2;
@@ -382,7 +384,7 @@ aside .fa-external-link-alt
     height: 120px;
     background: url(Projet2/images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg) no-repeat;
     background-size: cover;
-    background-position: right -1px top -83px;
+    background-position: right -1px top -100px;
 }
 .activite3
 {
@@ -411,7 +413,7 @@ aside .fa-external-link-alt
     height: 120px;
     background: url(Projet2/images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg) no-repeat;
     background-size: cover;
-    background-position: right -1px top 0px;
+    background-position: right -1px top -20px;
 }
 
 #activite .cadre
@@ -549,7 +551,10 @@ footer
             font-size: 1em;
         }
     
-
+        #activite p
+        {
+            font-size: 0.9em;
+        }
         #activite
         {
             height:auto;
@@ -611,7 +616,7 @@ footer
                 grid-template-columns: 1fr 1fr;
                 padding-left: 0px;
                 height: 80px;
-                grid-row-gap: 25px;
+                grid-row-gap: 16px;
             }
 
             #heb
@@ -637,10 +642,10 @@ footer
             #ins
             {
                 grid-column-start: 2;
-                position: absolute;
-                right: 32px;
                 font-weight: 700;
                 font-size: 0.9em;
+                justify-self: right;
+                margin-right: 20px;
             }
 
             #heb:hover
@@ -684,8 +689,6 @@ footer
                 display: none;
             }
 
-                /* main */
-
             main
             {
                 margin: 0px;
@@ -696,6 +699,7 @@ footer
             {
                 margin: 15px;
             }
+
             aside
             {
                 display: flex;
@@ -726,6 +730,18 @@ footer
                 flex-direction: column;
             }
 
+            .hebergement2
+            {
+                background-position: right 0px top -46px;
+
+            }
+
+            .hebergement4
+            {
+                background-position: right 0px top -105px;
+
+            }
+
             .hebergement6
             {
                 background-position: right 0px top -229px;
@@ -736,11 +752,6 @@ footer
                 display: inline-block;
                 width: 100%;    
             }
-
-
-
-
-
 
         }
 
