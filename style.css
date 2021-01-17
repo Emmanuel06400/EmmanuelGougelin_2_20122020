@@ -27,7 +27,6 @@ a
 body
 {
     font-family: 'Raleway', sans-serif;
-    padding-top: 20px;
 }
 
 /* header */
@@ -131,7 +130,6 @@ button
 .filtre p
 {
     margin: 0px;
-    inline-size: max-content;
     padding-left: 25px;
     font-weight: 700;
 }
