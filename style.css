@@ -27,14 +27,21 @@ a
 body
 {
     font-family: 'Raleway', sans-serif;
+    overflow-x: hidden;
 }
 
 a
 {
     color: black;
-    display: contents;}
+    display: contents;
+}
 
 /* header */
+
+#logo
+{
+    width: 100px;
+}
 
 header
 {
@@ -65,8 +72,8 @@ nav a:hover
 {
     color: #0065FC;
     border-top: 2px solid #0065FC;
-    margin-top: 8em;
     padding-top: 20px;
+    display: inline;
 }
 
 /* section main */
@@ -464,12 +471,6 @@ footer
     @media (max-width: 966px)
     {    
 
-        main
-        {
-
-            max-width: 750px;
-        }
-    
         .filtre
         {
             height: 15px;
