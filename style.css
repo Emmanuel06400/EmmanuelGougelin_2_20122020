@@ -49,6 +49,7 @@ header
     margin: auto;
     display: flex;
     justify-content: space-between;
+    max-width: 1100px;
 }
 
 nav ul
