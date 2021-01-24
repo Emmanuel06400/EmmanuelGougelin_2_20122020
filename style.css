@@ -28,6 +28,7 @@ body
 {
     font-family: 'Raleway', sans-serif;
     overflow-x: hidden;
+    contain: content;
 }
 
 a
@@ -129,6 +130,11 @@ button
     margin-left: 20px;
 }
 
+.filtre:hover
+{
+    background-color: #0065FC;
+}
+
 .filtre .fas
 {
     color: #0065FC;
@@ -145,6 +151,11 @@ button
     margin: 0px;
     padding-left: 25px;
     font-weight: 700;
+}
+
+.filtre:hover
+{
+    color: #F2F2F2;
 }
 
 .fa, .fas 
@@ -182,7 +193,7 @@ button
 #hebergement-aside
 {
     display: grid;
-    grid-template-columns: 4fr 8% 2fr;
+    grid-template-columns: 4fr 3% 2fr;
     margin-top: 20px;
 }
 
@@ -195,7 +206,7 @@ button
     padding: 15px 15px 5px;
     grid-column-gap: 30px;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 70px 35% 35% 70px;
+    grid-template-rows: 70px 38% 38% 70px;
     box-sizing: border-box;
 }
 
@@ -214,49 +225,26 @@ button
     box-shadow: 0px 4px 4px #cfcfcf;
     margin-bottom: 25px;
     cursor: pointer;
+    overflow: hidden;
+    max-height: 200px;
+
 }
 
 
-.hebergement
+.chambre
 {
-    background: url(Projet2/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg) no-repeat;
-    background-size: 100%;
-    background-position: right 0px top -14px;
+    object-fit: cover;
+    width: inherit;
+    border-radius: 15px;
+    height: 80%;
 }
 
-.hebergement2
+.chambre6
 {
-    background: url(Projet2/images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg) no-repeat;
-    background-size: 100%;
-    background-position: right 0px top -14px;
-}
-
-.hebergement3
-{
-    background: url(Projet2/images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg) no-repeat;
-    background-size: 100%;
-    background-position: right 0px top -14px;
-}
-
-.hebergement4
-{
-    background: url(Projet2/images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg) no-repeat;
-    background-size: 100%;
-    background-position: right 0px top -55px;
-}
-
-.hebergement5
-{
-    background: url(Projet2/images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg) no-repeat;
-    background-size: cover;
-    background-position: right 0px top -14px;
-}
-
-.hebergement6
-{
-    background: url(Projet2/images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg) no-repeat;
-    background-size: 100%;
-    background-position: right 0px top -130px;
+    object-fit: cover;
+    width: inherit;
+    border-radius: 15px;
+    height: 80%;
 }
 
 .cadre
@@ -268,7 +256,7 @@ button
     font-size: 0.8em;
     border-radius: 0px 0px 8px 8px;
     box-sizing: border-box;
-    padding-left: 10px;
+    padding: 6px;
 }
 
 .cadre  p
@@ -314,6 +302,8 @@ aside
     padding: 15px 25px 0px 15px;
     grid-column-start: 3;
     box-sizing: border-box;
+    display: grid;
+    grid-template-rows: 70px 28% 28% 24%;
 }
 
 aside .fa-external-link-alt
@@ -331,35 +321,27 @@ aside .fa-external-link-alt
     position: relative;
     border: 3px solid #ffffff;
     margin-bottom: 25px;
-    height: 100px;
+    height: 120px;
     cursor: pointer;
+    display: flex;
+    overflow: hidden;
 }
 
-#populaire1
+
+.chambre-aside
 {
-    background: url(Projet2/images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg) no-repeat;
-    background-size: cover;
-    background-position: right 78px top -50px;
+    object-fit: cover;
+    width: 50%;
+    position: absolute;
+    height: inherit;
 }
 
-#populaire2
-{
-    background: url(Projet2/images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg) no-repeat;
-    background-size: 100%;
-    background-position: right 78px top -33px;
-}
-#populaire3
-{
-    background: url(Projet2/images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg) no-repeat;
-    background-size: 63%;
-    background-position: right 121px top -118px;
-}
 .cadre2
 {
     position: absolute;
     right: 0px;
     width: 54%;
-    height: 100px;
+    height: 120px;
     padding-left: 4px;
     background-color: #ffffff;
     font-size: 0.8em;
@@ -391,55 +373,45 @@ aside .fa-external-link-alt
     margin-bottom: 25px;
     box-shadow: 0px 4px 4px #cfcfcf;
     cursor: pointer;
-}
-.activite
-{
-    height: 265px;
-    background: url(Projet2/images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg) no-repeat;
-    background-size: cover;
-    background-position: right -65px top -14px;
-}
-.activite2
-{
-    height: 120px;
-    background: url(Projet2/images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg) no-repeat;
-    background-size: cover;
-    background-position: right -1px top -100px;
-}
-.activite3
-{
-    height: 120px;
-    background: url(Projet2/images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg) no-repeat;
-    background-size: cover;
-    background-position: right -1px top 0px;
-}
-.activite4
-{
-    height: 265px;
-    background: url(Projet2/images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg) no-repeat;
-    background-size: cover;
-    background-position: right -65px top -14px;
+    overflow: hidden;
 }
 
-.activite5
+
+.activite-haut
 {
-    height: 120px;
-    background: url(Projet2/images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg) no-repeat;
-    background-size: cover;
-    background-position: right -1px top 0px;
+    object-fit: cover;
+    height: 100%;
+    position: absolute;
+    right: -78px;
 }
-.activite6
+
+.activite-large
+{
+    object-fit: cover;
+    width: 100%;
+    position: absolute;
+    top: -20px;
+}
+
+.activite-large1
+{
+    object-fit: cover;
+    width: 100%;
+    position: absolute;
+    height: 100%;
+}
+
+.activite, .activite4
+{
+    height: 265px;
+}
+.activite2, .activite3, .activite5, .activite6
 {
     height: 120px;
-    background: url(Projet2/images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg) no-repeat;
-    background-size: cover;
-    background-position: right -1px top -20px;
 }
 
 #activite .cadre
 {
-    height: 30px;
-    padding-left: 4px;
     background-color: #ffffff;
     font-size: 0.8em;
     border-radius: 0px 0px 16px 16px;
@@ -465,6 +437,8 @@ footer
 {
     display: none;
 }
+
+
 
     /* ---------------------------------media squeris 966px---------------------------------*/
 
@@ -540,6 +514,7 @@ footer
             background-color: white;
             grid-template-columns: 1fr 1fr;
             grid-template-rows: 60px 1fr 1fr 1fr 60px;
+            contain: content;
         }
 
         #hebergement h2
@@ -552,7 +527,6 @@ footer
         .hebergement, .hebergement2, .hebergement3, .hebergement4, .hebergement5, .hebergement6
         {
             height: 200px;
-            width: 98%;
             margin: auto;
             background-size: cover;
             margin-bottom: 20px;
@@ -569,6 +543,15 @@ footer
         {
             font-size: 0.9em;
         }
+
+        .activite-large 
+        {
+            object-fit: cover;
+            position: absolute;
+            top: 0px;
+            height: inherit;
+        }
+
         #activite
         {
             height:auto;
@@ -577,6 +560,12 @@ footer
             display: grid;
             grid-template-columns: 1fr 1fr;
             grid-gap: 30px;
+        }
+
+        .activite-haut 
+        {
+            right: -0px;
+            width: inherit;
         }
     
         #marseille
@@ -694,11 +683,14 @@ footer
                 display: inline;
                 background-color: #0065FC;
                 height: 30px;
-                border-radius: 0px 8px 8px 0px;
+                border-radius: 8px 8px 8px 8px;
                 color: #fff;
                 padding-left: 15px;
                 padding-top: 5px;
+                right: 8px;
+                position: relative;
             }
+
             button
             {
                 display: none;
@@ -744,6 +736,7 @@ footer
                 display: flex;
                 flex-direction: column;
             }
+
 
             .hebergement2
             {
